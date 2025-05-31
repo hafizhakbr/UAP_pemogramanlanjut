@@ -15,7 +15,6 @@ public class KalkulatorPabrik {
         System.out.println("==========================================");
         
         try {
-            // Donat dengan lubang (Torus)
             System.out.println("\nDonat dengan lubang");
             System.out.println("==========================================");
             System.out.print("Isikan Radius : ");
@@ -26,7 +25,6 @@ public class KalkulatorPabrik {
             Torus donutDenganLubang = new Torus(majorRadius, minorRadius);
             donutDenganLubang.printInfo();
             
-            // Donat tanpa lubang (Sphere)
             System.out.println("\nDonat tanpa lubang");
             System.out.println("==========================================");
             System.out.print("Isikan radius : ");
