@@ -1,8 +1,8 @@
 package uap.interfaces;
 
 public interface MassCalculable {
-    double DENSITY = 8.0;  // g/cm³
-    double THICKNESS = 0.5; // cm
+    double DENSITY = 8.0;
+    double THICKNESS = 0.5;
     
     double getMass();
 } 
