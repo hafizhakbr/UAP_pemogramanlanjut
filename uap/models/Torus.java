@@ -3,8 +3,8 @@ package uap.models;
 import uap.bases.BangunRuang;
 
 public class Torus extends BangunRuang {
-    private double majorRadius; // R
-    private double minorRadius; // r
+    private double majorRadius;
+    private double minorRadius;
     
     public Torus(double majorRadius, double minorRadius) {
         super();
